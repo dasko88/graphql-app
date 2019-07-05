@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Data
 @AllArgsConstructor
@@ -23,6 +22,5 @@ public class Task {
 	private String name;
 	private String code;
 	private Integer priority;
-	private Date dueDate;
 
 }
