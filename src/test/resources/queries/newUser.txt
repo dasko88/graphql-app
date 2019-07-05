@@ -1,0 +1,6 @@
+mutation newUser($name: String!, $surname: String, $height: Int!) {
+  newUser(name: $name, surname: $surname, height: $height) {
+    id
+    name
+  }
+}

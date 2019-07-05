@@ -1,0 +1,6 @@
+mutation newTask($name: String!, $code: String!, $priority: Int) {
+  newTask(name: $name, code: $code, priority: $priority) {
+    id
+    name
+  }
+}
